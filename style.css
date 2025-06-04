@@ -75,3 +75,7 @@ main {
 h2, h3 {
     margin: 0px;
 }
+
+img {
+    border-radius: 20px;
+}
