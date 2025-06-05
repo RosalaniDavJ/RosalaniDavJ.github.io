@@ -18,6 +18,9 @@ nav {
     justify-content: space-between;
     margin-bottom: 20px;
     border-radius: 6px;
+    border-style: outset;
+    border-color: orange;
+    border-width: 4px;
 }
 
 h1 {
@@ -50,6 +53,9 @@ main {
     display: flex;
     margin-top: 20px;
     border-radius: 10px;
+    border-style: outset;
+    border-width: 6px;
+    border-color: orange;
 }
 
 .sidebar {
@@ -83,7 +89,7 @@ img {
 /Portfolio Styles/
 
 .content h1 {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 #portfolio {
@@ -104,7 +110,7 @@ img {
 
 #portfolio a {
     text-decoration: none;
-    color: #454545;
+    color: #ffffff;
 }
 
 #portonly {
@@ -113,10 +119,24 @@ img {
 
 #onlyport {
     background-color: #5d5d81;
+    border-style: inset;
+    border-color: #bfcde0;
+    border-width: 6px;
 }
 
 #portport {
     background-color: #5d5d81;
+    border-color: #bfcde0;
+    border-style: inset;
+    border-width: 4px;
+}
+
+#portword {
+    color: white;
+}
+
+#wordport {
+    color: white;
 }
 
 Mobile-Responsive
