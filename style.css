@@ -106,10 +106,13 @@ img {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    border-style: solid;
+    border: width 1px;
+    border-color: white;
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background: #9fc5e2;
 }
 
 #portfolio a {
@@ -130,7 +133,7 @@ img {
 
 #portport {
     background-color: #5d5d81;
-    border-color: #bfcde0;
+    border-color: #ffffff;
     border-style: inset;
     border-width: 4px;
 }
