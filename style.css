@@ -86,6 +86,10 @@ img {
     border-radius: 20px;
 }
 
+#spiderimg {
+    width: 310px
+}
+
 /Portfolio Styles/
 
 .content h1 {
@@ -137,6 +141,12 @@ img {
 
 #wordport {
     color: white;
+}
+
+#cloud {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bfcde0;
 }
 
 Mobile-Responsive
