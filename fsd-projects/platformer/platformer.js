@@ -53,9 +53,9 @@ createPlatform(350, 170, 400, 10, "lavender")
 createPlatform(1000, 180, 10, 200, "springgreen")
 
     // TODO 3 - Create Collectables
-createCollectable("diamond", 10, 10)
-createCollectable("grace", 730, 330)
-createCollectable("max", 350, 130)
+createCollectable("heart", 10, 10)
+createCollectable("heart", 730, 330)
+createCollectable("heart", 350, 130)
 
     
     // TODO 4 - Create Cannons
