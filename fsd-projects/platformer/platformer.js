@@ -44,16 +44,24 @@ createPlatform(750, 400, 10, 1000, "violet")
 createPlatform(450, 650, 150, 10, "brown")
 createPlatform(350,550, 130, 10, "grey")
 createPlatform(450, 450, 200, 10, "teal")
-
+createPlatform(900, 650, 200, 10, "aqua")
+createPlatform(1100, 520, 200, 10, "bisque")
+createPlatform(1300, 390, 150, 10, "chartreuse")
+createPlatform(1000, 300, 200, 10, "deeppink")
+createPlatform(1000, 170, 200, 10, "gold")
+createPlatform(350, 170, 400, 10, "lavender")
+createPlatform(1000, 180, 10, 200, "springgreen")
 
     // TODO 3 - Create Collectables
 createCollectable("diamond", 10, 10)
 createCollectable("grace", 730, 330)
+createCollectable("max", 350, 130)
 
     
     // TODO 4 - Create Cannons
 createCannon("bottom", 50, 1000)
-
+createCannon("right", 215, 1500)
+createCannon("left", 670, 1800)
     
     
     //////////////////////////////////
