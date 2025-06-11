@@ -35,7 +35,7 @@
 	<script>
 		(function () {
 			'use strict'
-			/* global jQuery */
+			/* global jQuery */ 
 
 			//////////////////////////////////////////////////////////////////
 			/////////////////// SETUP DO NOT DELETE //////////////////////////
@@ -66,8 +66,9 @@
 			//////////////////////////////////////////////////////////////////
 
 			// TODO 2 - Variable declarations 
-
-
+			var positionX = 0;
+			var points = 0;
+			var speed = 10;
 
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -75,8 +76,9 @@
 			turn it around! 
 			*/
 			function update() {
-
-
+				moveBoxTo(300);
+				moveBoxTo(positionX);
+				positionX = positionX + speed;
 			};
 
 			/* 
@@ -85,8 +87,10 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-
-
+				positionX = 0;
+				points = points + 1;
+				changeBoxText(points);
+				speed = speed + 3;
 			};
 
 
