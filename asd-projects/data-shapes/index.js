@@ -80,13 +80,13 @@ function handleBad(data, repeat){
   setBackgroundWithMixed(data, repeat);
   animationDetails.displayType = 3;
 }
-/*
+/* PUSH/TRY THIS ON MONDAY
 function handleBad(data, repeat){
+  resetDisplay();
+  currentIndex = Math.floor(Math.random() * dataShapes.length - 1);
   repeat += 1;
   setBackgroundWithMixed(data, repeat);
   animationDetails.displayType = 3;
-  resetDisplay();
-  currentIndex = Math.floor(Math.random() * dataShapes.length - 1);
 }
 }
 
