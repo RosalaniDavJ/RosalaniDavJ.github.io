@@ -16,6 +16,7 @@ var score = 0; // variable to keep track of the score
 var started = false; // variable to keep track of whether the game has started
 var colors = ["red", "orange", "yellow", "green", "blue", "purple"];
 var colorIndex = 0;
+var isReversed = false;
 
 // TODO 4, Part 1: Create the apple variable
 
@@ -206,6 +207,9 @@ function handleAppleCollision() {
   // increase the score and update the score DOM element
   score++;
   scoreElement.text("Score: " + score);
+  if (score % 10 === 0){
+    isReversed = !isReversed;
+  }
 
   // Remove existing Apple and create a new one
   apple.element.remove();
@@ -341,6 +345,7 @@ console.log(activeKey);
     started = true; // the game starts when the first key is pressed
   }
 }
+
 
 /* Given a gameSquare (which may be a snakeSquare or the apple), position
  * the gameSquare on the screen.
